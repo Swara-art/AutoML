@@ -93,7 +93,7 @@ ML-Algorithm-Explorer
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/ml-algorithm-explorer.git
+git clone [https://github.com/Swara-art/AutoML]
 cd ml-algorithm-explorer
 ```
 2. Install dependencies
