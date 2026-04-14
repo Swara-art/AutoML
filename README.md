@@ -4,8 +4,6 @@
 
 AutoML Predictive Insights is a powerful, full-stack web application designed for data scientists and analysts. It automates the entire machine learning pipeline—from data ingestion and cleaning to model training, evaluation, and real-time inference.
 
-![Dashboard Mockup](assets/dashboard_mockup.png)
-
 ---
 
 ## 🚀 Key Features
@@ -28,8 +26,6 @@ AutoML Predictive Insights is a powerful, full-stack web application designed fo
 ### 4. Real-time Prediction API
 - **Dynamic Form Generation**: The UI automatically builds input fields based on your dataset.
 - **Instant Inference**: Get predictions immediately after training with a professional gauge chart visualization.
-
-![Prediction Mockup](assets/prediction_mockup.png)
 
 ---
 
@@ -61,8 +57,7 @@ graph LR
 ### 1. Clone & Environment Setup
 ```bash
 # Clone the repository (if applicable)
-# git clone <repo-url>
-cd "Machine Learning Model"
+# git clone https://github.com/Swara-art/AutoML
 
 # Create a virtual environment
 python -m venv .venv
@@ -87,7 +82,6 @@ python -m uvicorn app.main:app --reload
 ```bash
 streamlit run frontend/app.py
 ```
-*Dashboard will be available at: http://127.0.0.1:8501*
 
 ---
 
